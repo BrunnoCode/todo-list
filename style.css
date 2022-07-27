@@ -25,7 +25,7 @@ header, form {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
+    /* gap: 1rem; */
 }
 /*################################################--------FORM and BUTTON, INPUTS STYLE ------------#######################################################################*/
 
@@ -47,4 +47,54 @@ form button:hover {
     background: #c03db5;
     color: white;
 }
+
 /*################################################--------FINAL FORM and BUTTON, INPUTS STYLE ------------#######################################################################*/
+
+/*################################################--------TODO LIST STYLE ------------#######################################################################*/
+.todo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo-list {
+    min-width: 30%;
+    list-style: none;
+}
+
+.todo {
+   margin: 0.5rem;
+   background: white;
+   color: black;
+   font-size: 1.5rem;
+   display: flex;
+   justify-content: space-between;
+   align-items: center; 
+}
+
+.todo li {
+    flex: 1;
+}
+
+.trash-btn, .complete-btn {
+    background: #920aec;
+    color: white;
+    border: none;
+    padding: 1rem;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.complete-btn {
+    background: rgb(235, 163, 235);
+}
+
+.todo-item {
+    padding: 0rem 0.5rem;
+}
+
+.fa-trash, .fa-check {
+    pointer-events: none;
+}
+
+/*################################################--------TODO LIST STYLE ------------#######################################################################*/

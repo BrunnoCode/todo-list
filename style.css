@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*################################################--------BODY'S STYLE------------#######################################################################*/
+body {
+    background-image: linear-gradient(120deg, #030303, rgb(68, 6, 68));
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+}
+
+/*################################################--------FINAL BODY'S STYLE------------#######################################################################*/
+
+
+
+/*################################################--------HEADER and FORM STYLE------------#######################################################################*/
+header {
+    font-size: 1.5rem;
+}
+
+header, form {
+    min-height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+form input, form button {
+    padding: 0.5rem;
+    font-size: 2rem;
+    border: none;
+    background: white;
+}
+
+form button {
+    color: #3d0c31;
+    background: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+form button:hover {
+    background: #c03db5;
+    color: white;
+}
+/*################################################--------FINAL HEADER and FORM STYLE------------#######################################################################*/

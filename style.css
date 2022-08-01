@@ -157,5 +157,26 @@ select {
         text-align: center;
         margin-top: 1.5rem;
     }
+
+    form {
+    min-height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    }
+
+    form .todo-input {
+        font-size: 1rem;
+        border: none;
+        background: white;
+    }
+
+    form input, form button {
+        font-size: 1.1rem;
+    }
 }
+
+
+    
 
